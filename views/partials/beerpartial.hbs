@@ -1,11 +1,19 @@
-<div>
+<div id="beers_container">
 
   {{#each this}}
-  <div>
+  <div class="beers_container_unit">
+    {{#if image_url}}
     <img src={{image_url}} alt="beer img">
-    <h2>Name: {{name}}</h2>
+    {{/if}}
+    {{#if name}}
+    <h3>Name: {{name}}</h3>
+    {{/if}}
+    {{#if description}}
     <p>Description: {{description}}</p>
+    {{/if}}
+    {{#if tagline}}
     <p>Tagline: {{tagline}}</p>
+    {{/if}}
   </div>
   {{/each}}
 
