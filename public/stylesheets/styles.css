@@ -97,6 +97,10 @@ main p {
 /****** RANDOM BEERS  *******/
 
 #random_beer_container {
+  position: absolute;
+  width: 700px;
+  left: 400px;
+  top: 200px;
 }
 
 /* .beers_container_unit_image {
