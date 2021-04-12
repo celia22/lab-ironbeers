@@ -35,14 +35,11 @@ footer {
 
 #index_beer_image_container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  width: 300px;
-  margin: 30px 550px;
 }
 
 .index_beer_img {
-  width: 300px;
+  width: 320px;
   height: 350px;
   margin: 50px 0;
 }
@@ -50,6 +47,10 @@ footer {
 #index_beer_button_container {
   display: flex;
   flex-direction: column;
+  margin-bottom: 40px;
+}
+.index_beer_button_container_unit {
+  display: flex;
   justify-content: center;
 }
 
