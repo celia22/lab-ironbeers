@@ -41,7 +41,7 @@ footer {
 .index_beer_img {
   width: 320px;
   height: 350px;
-  margin: 50px 0;
+  margin: 50px 0 50px 50px;
 }
 
 #index_beer_button_container {
